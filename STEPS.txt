@@ -8,3 +8,20 @@ Run on terminal
 "npm run dev"
 
 Homepage - http://localhost:8000/
+
+Features:
+
+View all blogs
+
+Login user:
+View own blogs
+Create blog
+Update own blog
+Delete own blog
+
+Front end used:
+Vue JS
+
+API:
+laravel
+laravel sanctum
