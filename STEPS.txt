@@ -8,7 +8,3 @@ Run on terminal
 "npm run dev"
 
 Homepage - http://localhost:8000/
-
-Sample Account login:
-email: jerald@mail.online
-pass : test
