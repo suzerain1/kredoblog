@@ -1,0 +1,14 @@
+1. Upload files
+2. create database(kredoblog) - I'm using mysql
+
+Run on terminal
+"npm install"
+"php artisan migrate"
+"php artisan serve"
+"npm run dev"
+
+Homepage - http://localhost:8000/
+
+Sample Account login:
+email: jerald@mail.online
+pass : test
