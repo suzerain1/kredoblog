@@ -1,0 +1,173 @@
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background: #F5F5F5;
+    padding: 20px;
+    font-family: cursive;
+}
+.container table {
+    width: 100%;
+    text-align: center;
+}
+.container table tr th, .container table tr td {
+    padding: 20px 0;
+}
+.container table tr td {
+    border-top: 1px solid #2D2D2D;
+}
+.container table tr td .btn_update{
+    color: #fff;
+    background: #2374E1;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #2374E1;
+    font-family: cursive;
+    transition: .5s;
+    text-decoration: none;
+}
+.container table tr td .btn_update:hover{
+    color:#2374E1;
+    background-color: #fff;
+    border: 1px solid #2374E1;
+}
+.container table tr td .btn_delete{
+    color: #fff;
+    background: #FF0000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #FF0000;
+    font-family: cursive;
+    transition: .5s;
+}
+.container table tr td .btn_delete:hover{
+    color: #FF0000;
+    background: #fff;
+    border: 1px solid #FF0000;
+}
+nav h1 {
+    float: left;
+}
+
+nav .btn_create {
+    float: right;
+    margin: 35px 50px 0 0;
+    background: #009A68;
+    border: 1px solid #009A68;
+    transition: .5s;
+    color: #fff;
+    padding: 10px 23px;
+    font-size: 15px;
+    font-family: cursive;
+    cursor: pointer;
+    text-decoration: none;
+}
+nav .btn_create:hover{
+    color: #009A68;
+    background: #fff;
+    border: 1px solid #009A68;
+}
+
+.form_container {
+    display: block;
+    clear: both;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.error_msg {
+    border-top: 2px solid #FF0101;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 15px;
+    color: #FF0101;
+}
+
+form.form_create {
+    padding: 10px;
+}
+
+form.form_create div label {width: 100%;display: block;}
+
+form.form_create div {
+    margin-bottom: 15px;
+}
+
+form.form_create div input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    outline-color: #009A68;
+}
+button.btn_submit {
+    color: #fff;
+    border: 1px solid #009A68;
+    background: #009A68;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: .5s;
+    float: right;
+}
+button.btn_submit:hover {
+    color: #009A68;
+    background: #fff;
+    border: 1px solid #009A68;
+}
+form.form_create div textarea {
+    width: 100%;
+    outline-color: #009A68;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 10px;
+}
+a.btn_dsh {
+    background: #FFFFFF;
+    padding: 10px 20px;
+    color: #009A68;
+    text-decoration: none;
+    border: 1px solid #fff;
+    float: left;
+    transition: .5s;
+}
+.btn_dsh:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #009A68;
+}
+.form_container.login_container {
+    width: 400px;
+}
+.login_container h2{
+    text-align: center;
+    color: #009A68;
+}
+button.btn_logout {
+    color: red;
+    border: 1px solid red;
+    background: #fff;
+    padding: 10px 36px;
+    display: block;
+    cursor: pointer;
+    margin-top: 41px;
+}
+button.btn_logout:hover{
+    color: #009A68;
+    border: 1px solid #009A68;
+    background-color: #fff;
+}
+.no_blog {
+    display: block;
+    clear: both;
+    padding: 21px;
+}
+a.view_all {
+    display: block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 26px;
+}
