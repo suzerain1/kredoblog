@@ -22,6 +22,6 @@ Delete own blog
 Front end used:
 Vue JS
 
-API:
+Backend/API:
 laravel
 laravel sanctum
